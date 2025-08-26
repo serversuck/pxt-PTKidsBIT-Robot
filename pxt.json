@@ -1,21 +1,16 @@
 {
-    "name": "pxt-PTKidsBIT-Robot",
-    "version": "1.6.4",
-    "description": "",
+    "name": "pxt-PTKidsBIT-Robot-BLE",
+    "version": "1.0.0",
+    "description": "BLE-safe PTKidsBIT without ws2812b/radio",
     "dependencies": {
         "core": "*",
-        "radio": "*",
-        "microphone": "*",
-        "ws2812b": "github:microsoft/pxt-ws2812b#v0.1.2"
+        "microphone": "*"
     },
     "files": [
         "README.md",
-        "PTKidsBITRobot.ts",
-        "main.py"
+        "PTKidsBITRobot_BLE.ts"
     ],
-    "testFiles": [
-        "test.ts"
-    ],
+    "testFiles": [],
     "public": true,
     "targetVersions": {
         "target": "6.0.19",
