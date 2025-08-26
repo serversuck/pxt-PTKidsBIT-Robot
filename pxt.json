@@ -1,23 +1,20 @@
 {
-    "name": "pxt-PTKidsBIT-Robot-BLE",
-    "version": "1.0.0",
-    "description": "BLE-safe PTKidsBIT without ws2812b/radio",
-    "dependencies": {
-        "core": "*",
-        "microphone": "*"
-    },
-    "files": [
-        "README.md",
-        "PTKidsBITRobot.ts"
-    ],
-    "testFiles": [],
-    "public": true,
-    "targetVersions": {
-        "target": "6.0.19",
-        "targetId": "microbit"
-    },
-    "supportedTargets": [
-        "microbit"
-    ],
-    "preferredEditor": "tsprj"
+  "name": "pxt-PTKidsBIT-Robot-noBLE",
+  "version": "1.0.0",
+  "description": "BLE-safe PTKidsBIT (no radio/ws2812b)",
+  "dependencies": {
+    "core": "*"
+  },
+  "files": [
+    "README.md",
+    "PTKidsBITRobot.ts"
+  ],
+  "testFiles": [],
+  "public": true,
+  "targetVersions": {
+    "target": "6.0.19",
+    "targetId": "microbit"
+  },
+  "supportedTargets": ["microbit"],
+  "preferredEditor": "tsprj"
 }
